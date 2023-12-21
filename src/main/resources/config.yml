@@ -1,0 +1,14 @@
+# Plugin coded by DieserEliasYT
+# Version 1.0
+#
+# Last color code is the color of players name when they join/leave
+# You have to use "§" instead of "&" for color codes, but maybe i
+# will change that in the future.
+#
+JoinFormat: '§8[§a+§8] §7'
+QuitFormat: '§8[§c-§8] §7'
+KickFormat: '§8[§c-§8] §7'
+#
+#
+# If you have questions or need help, feel free to open a
+# support-ticket on our discord -> https://discord.gg/8DUtqq3pUE
