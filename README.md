@@ -9,3 +9,4 @@ do not change any therms, just your message.)
 
 
 ###### You are not allowed to take the sourcecode and claim it as your own! But you are allowed to change something at the sourcecode.
+###### This plugin uses [bStats](https://www.bstats.org) for a plugin statistics

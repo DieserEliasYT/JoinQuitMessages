@@ -3,6 +3,7 @@ package dieserblock.joinquitleave;
 import dieserblock.joinquitleave.Listeners.JoinListener;
 import dieserblock.joinquitleave.Listeners.KickListener;
 import dieserblock.joinquitleave.Listeners.QuitListener;
+import dieserblock.joinquitleave.Utilities.Metrics;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -32,6 +33,11 @@ public final class Main extends JavaPlugin {
         getConfig().options().copyDefaults();
         saveDefaultConfig();
         plugin = this;
+
+
+        // bStats
+        int pluginId = 20534;
+        Metrics metrics = new Metrics(this, pluginId);
 
 
     }
